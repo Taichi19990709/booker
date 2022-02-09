@@ -1,0 +1,7 @@
+<div class="show-container">
+  <div class="show-title-box"><h4>title:</h4><p><%=@book.title %></p></div>
+  <div class="show-body-box"><h4>body:</h4><p><%=@book.body %></p></div>
+</div>
+<div class="show-link-box">
+<%=link_to "Edit", edit_book_path(@book.id) %>|<%= link_to "Back", books_path %>
+</div>
