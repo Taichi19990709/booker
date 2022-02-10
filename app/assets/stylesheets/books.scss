@@ -29,3 +29,26 @@ tbody td{
 .index-container{
   margin: 40px;
 }
+
+#error_explanation{
+  position: relative;
+  background-color: red;
+  padding: 2px;
+  width: 600px;
+  height: 94px;
+}
+
+.errortitle{
+  background-color: rgb(187, 24, 24);
+  color: white;
+  height: 25px;
+  width: 600px;
+}
+.errorbody{
+  position: absolute;
+  top:25px;
+  background-color: gray;
+  color: black;
+  height:70px;
+  width: 600px;
+}
